@@ -1,0 +1,219 @@
+body{
+    margin: 0 auto;
+    background-color:  gray;
+}
+.container{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin: auto;
+}
+.logo{
+    float: none;
+    padding-bottom: 0px;
+    padding-left: 0px;    
+}
+.logo a{
+    margin: 0px;
+    padding: 0px;
+}
+.search{
+    padding-top: 30px;
+    padding-right: 50px;
+    float: right;
+}
+.clearfix{
+    clear: both;
+}
+.main_menu{
+    background-color: rgb(196, 224, 36);
+}
+.main_menu > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.main_menu > ul > li{
+    display: inline-block;
+}
+.main_menu > ul > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: bolder;
+    text-shadow: black 5px;
+}
+.main_menu > ul > li > a:hover{
+    background-color: orange;
+}
+
+/* drop */
+.drop{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+.drop > li > a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+    background-color: black;
+}
+.drop > li > a:hover{
+    background-color: orange;
+}
+.main_menu > ul > li:hover .drop{
+    display: block;
+}
+
+/*banner*/
+
+.banner{
+    max-width: 100%; 
+    overflow: hidden;
+}
+.banner img{
+    width: 100%;
+}
+/* holder */
+.content-holder{
+    background-color: cornflowerblue;
+}
+.content{
+    width: 700px;
+    height: auto;
+    padding: 25px;
+    background-color: white;
+    float: left;
+}
+.content h1 {
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+.content p{
+    font-family: sans-serif;
+    font-size: small;
+}
+.sidebar{
+    float: left;
+    padding: 25px;
+}
+.sidebar h3{
+    font-family: sans-serif;
+    color: white;
+}
+.sidebar ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.sidebar ul > li > a{
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-family: sans-serif;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.mainfooter{
+    background-color: black;
+    color: white;
+    width: 950px;
+    height: auto;
+    padding: 25px;
+}
+
+.footerbox{
+    width: 237.5px;
+    height: auto;
+    float: left;
+    font-family: sans-serif;
+    
+}
+.footerbox > ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px; 
+}
+.footerbox > ul > li > a{
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+address p{
+   font-size: small; 
+}
+.footerbox address a{
+    color: teal;
+    font-size: small;
+}
+.copy{
+    font-family: sans-serif;
+    padding: 25px;
+    text-align: center;
+    background-color: crimson;
+    color: white;
+}
+.copy p{
+    margin: 0px;
+}
+
+/* page */
+.content img{
+    max-width: 100%;
+}
+
+/*product*/
+
+.product{
+    width: 165px;
+    height: auto;
+    float: left;
+    margin: 20px;
+    padding: 10px;
+}
+
+.pcaption p {
+    font-weight: bold;
+}
+
+.pcaption del {
+    color: #e21212;
+}
+.pcaption ins {
+    color: greenyellow;
+}
+
+.pcaption a{
+    display: block;
+    padding: 8px;
+    background-color: teal;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: small;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.pcaption a:hover{
+    background-color: orange;
+}
+
+/* contact page */
+
+.banner iframe{
+    width: 100%;
+    height: 416.66px;
+}
